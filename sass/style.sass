@@ -1,0 +1,232 @@
+*
+    margin: 0
+    box-sizing: border-box
+
+html
+    font-size: 12px
+    font-family: Open Sans
+
+.container 
+    max-width: 1280px
+    width: 100%
+    margin: auto
+
+.buttons
+    margin-top: 5rem
+.button 
+    color: #ffffff
+    border-radius: 5px
+    outline: none
+    border: none
+    cursor: pointer
+    &--primary
+    background: #e8c300
+    &--secondary
+    background-color: transparent
+    border: 1px solid rgba(225, 225, 225, 0.2)
+.header
+    background-color: transparent
+    position: relative
+    z-index: 1
+    &__menu
+        width: 100%
+        display: flex
+        justify-content: space-between
+
+        &__item
+            font-size: 1rem
+            padding: 50px 25px
+            text-decoration: none
+            color: #ffffff
+
+    &__logo
+        margin-top: 25px
+        margin-right: 35px
+        margin-left: 35px
+
+//hero__block
+
+.hero
+    position: relative
+    background: url('../img/header-bg.jpg') no-repeat center / cover
+    padding-top: 326px
+    padding-bottom: 225px
+    margin-top: -179px
+    color: #ffffff
+    &::before
+        content: ''
+        position: absolute
+        bottom: 113px
+        left: 50%
+        margin-left: -20px
+        width: 40px
+        height: 40px
+        background: #ffffff url('../img/5.svg') no-repeat center
+        border-radius: 50%
+    &::after
+        content: ''
+        position: absolute
+        bottom: 102px
+        left: 50%
+        margin-left: -30px
+        width: 60px
+        height: 60px
+        border: 1px solid rgba(255, 255, 255, 0.2)
+        border-radius: 50%
+    &__block
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+       
+    &__timetable__block
+        transform: rotate(-90deg)
+        height: 30px
+    &__info__block
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__subtitle
+        font-weight: bold
+        line-height: 1.166rem
+        margin-bottom: 2rem
+    &__title
+        position: relative
+        font-family: Banny Round
+        text-transform: uppercase
+        font-size: 8rem
+        &::before
+            position: absolute
+            bottom: -30px
+            left: 50%
+            margin-left: -30px
+            content: ''
+            width: 60px
+            height: 5px
+            background: #E8C300
+            border-radius: 50px
+    &__buttons
+        max-width: 440px
+        width: 100%
+        display: flex
+        justify-content: space-between
+    &__button
+        width: 200px
+        height: 60px
+    &__social-links
+        display: flex
+        transform: rotate(-90deg)
+    &__social-link
+        width: 60px
+        height: 60px
+        border: 1px solid rgba(225, 225, 225, 0.2)
+        border-radius: 50%
+        margin-bottom: 20px
+        margin-right: 20px
+        transform: rotate(90deg)
+    &__facebook
+        background: url('../img/4.svg') no-repeat center
+    &__twit
+        background: url('../img/1.svg') no-repeat center
+    &__inst
+        background: url('../img/3.svg') no-repeat center
+    //about
+.about
+    &__block
+        width: 100%
+        display: flex
+        justify-content: space-between
+        padding-top: 100px
+        padding-bottom: 100px
+        align-items: center
+    &__text
+        text-align: center
+        width: 600px
+        max-width: 100%
+    &__title
+        margin-bottom: 3rem
+        position: relative
+        font-family: Banny Round
+        text-transform: uppercase
+        font-size: 3rem
+        &::before
+            position: absolute
+            bottom: -17px
+            left: 50%
+            margin-left: -30px
+            content: ''
+            width: 60px
+            height: 5px
+            background: #E8C300
+            border-radius: 50px
+    &__subtitle
+        font-size: 18px
+        margin-bottom: 20px
+    &__info
+        font-size: 18px
+        line-height: 28px
+    &__pict
+        position: relative
+        &::before
+            content: ''
+            border: 20px solid #E8C300
+            position: absolute
+            width: 250px
+            height: 250px
+            right: -98px
+            bottom: 145px 
+
+.shef
+    background: url('../img/spec.png') no-repeat center / cover
+    color: #ffffff
+    &__team
+        font-family: Open Sans
+        font-size: 12px
+        line-height: 14px
+        font-weight: bold
+        letter-spacing: 0.5em
+        text-align: center
+        padding-top: 50px
+    &__block
+        width: 100%
+        display: flex
+        justify-content: space-between
+        
+        padding-bottom: 40px
+        align-items: center
+    &__text
+        text-align: center
+        width: 600px
+        max-width: 100%
+    &__title
+        margin-bottom: 3rem
+        position: relative
+        font-family: Banny Round
+        text-transform: uppercase
+        font-size: 3rem
+        &::before
+            position: absolute
+            bottom: -17px
+            left: 50%
+            margin-left: -30px
+            content: ''
+            width: 60px
+            height: 5px
+            background: #E8C300
+            border-radius: 50px
+    &__subtitle
+        font-size: 18px
+        margin-bottom: 20px
+    &__info
+        font-size: 18px
+        line-height: 28px
+    &__pict
+        position: relative
+        &::before
+            content: ''
+            border: 20px solid #E8C300
+            position: absolute
+            width: 250px
+            height: 250px
+            left: -75px
+            bottom: 145px 
