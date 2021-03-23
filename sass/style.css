@@ -25,7 +25,13 @@ html {
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+.button--primary {
   background: #e8c300;
+}
+
+.button--secondary {
   background-color: transparent;
   border: 1px solid rgba(225, 225, 225, 0.2);
 }
@@ -73,7 +79,7 @@ html {
   position: absolute;
   bottom: 113px;
   left: 50%;
-  margin-left: -20px;
+  margin-left: -19px;
   width: 40px;
   height: 40px;
   background: #ffffff url("../img/5.svg") no-repeat center;
